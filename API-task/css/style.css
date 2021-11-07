@@ -1,0 +1,88 @@
+/*reset css-------------------------------------------*/
+* {
+    box-sizing: border-box;
+}
+
+/*base css-------------------------------------------*/
+body {
+    margin: 0;
+    padding-top: 50px;
+
+    font-family: 'Revalia', cursive;
+    font-size: 18px;
+}
+
+span {
+    color: #fff
+}
+
+/*---------------------------------------------------*/
+.container {
+    max-width: 870px;
+    width: 100%;
+    padding: 25px;
+    margin: 0 auto;
+    background-color: coral;
+    border-radius: 35px;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.title {
+    padding-left: 80px;
+    padding-bottom: 25px;
+    margin: 0;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+}
+
+.search-input {
+    border-radius: 35px;
+    font-family: 'Revalia', cursive;
+}
+
+.search-button {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #f8aa32;
+    color: #fff;
+    font-family: 'Revalia', cursive;
+    cursor: pointer;
+}
+
+.search-input + .search-button {
+    margin-left: 50px;
+}
+
+.show-info__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.country {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.country__box {
+
+}
+
+.airport__item_position {
+    padding-left: 50px;
+}
+
+.airport_code {
+    display: flex;
+    justify-content: space-evenly;
+}
+
